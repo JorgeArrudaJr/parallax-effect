@@ -1,0 +1,2 @@
+Hello, another simple project and this time a challenge to make this parallax effect with an environmental theme just to relax. For a beginner parallax effects are a challenge because they need elements that we haven't had contact with yet and that's why it becomes a beautiful exercise that will increase knowledge.
+In case of tips, mentoring or improvements feel free.

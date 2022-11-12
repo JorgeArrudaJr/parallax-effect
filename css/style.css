@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1,h2 {
+    font-weight: 900;
+    font-family: Verdana;
+}
+body .container {
+   width: 100%;
+   margin: 0 auto;
+}
+.parallax h1{
+    font-size: 3.2rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 50;
+}
+.parallax h2, p{
+    padding: 0 0.5em;
+}
+.content .text {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.25em;
+}
+.text h2 {
+    margin-bottom: 1.2em;
+    font-size: 1.8rem;
+    color: #333;
+}
+.text p {
+    font-family: Georgia;
+    line-height: 1.8;
+}
+.container .content {
+    padding: 2.5em 0;
+    background: #ece7d5;
+}
+.container .parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container .parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, black 100%);
+}
+.container .parallax-1 {
+    background-image: url(https://www.infoescola.com/wp-content/uploads/2019/09/deserto-atacama-vale-da-lua-365514371.jpg);
+}
+.container .parallax-2 {
+    background-image: url(https://www.ambientelegal.com.br/wp-content/uploads/florestas-tropicais.jpg);
+}
+.container .parallax-3 {
+    background-image: url(https://s2.glbimg.com/Zr3WDdyCMu_qfp4Q1eYcIbbSEH8=/0x0:960x590/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/g/L/HmQEGETkehCO1MjMPwBg/chicago.jpg);
+}
